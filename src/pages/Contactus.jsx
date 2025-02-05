@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextField, Button, Typography, Grid, Paper } from '@mui/material';
 
-const Contactus = () => (
+const ContactForm = () => (
   <Paper elevation={0} sx={{ padding: { xs: '60px', sm: '40px' }, backgroundColor: 'transparent' }}>
     <Typography variant="h5" gutterBottom sx={{ color: '#fff', fontSize: { xs: '1.5rem', sm: '2rem' } }}>
       Contact Us
@@ -184,7 +184,7 @@ const StoreInfo = () => {
   );
 };
 
-export default function Contact() {
+export default function Contactus() {
   return (
     <div className="contactContainer">
       <main className="contactMain">
