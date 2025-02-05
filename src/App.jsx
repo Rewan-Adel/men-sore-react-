@@ -11,7 +11,7 @@ import About from './pages/Aboutus';
 
 const darkTheme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
   },
   components: {
     MuiButton: {
