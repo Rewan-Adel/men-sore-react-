@@ -4,7 +4,7 @@ import Introduction from './Introduction';
 import Values from './Values';
 import CallToAction from './CallToAction';
 
-const AboutUsPage = () => {
+const Aboutus = () => {
   return (
     <Container bgcolor="black">
       <Introduction />
@@ -14,4 +14,4 @@ const AboutUsPage = () => {
   );
 };
 
-export default AboutUsPage;
+export default Aboutus;
