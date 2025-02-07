@@ -139,13 +139,14 @@ function Nav() {
         component="nav"
         sx={{
           position: 'fixed', 
-          backgroundColor: window.location.pathname === '/' || window.location.pathname === '/home'  ? (scrolled ? 'black' : 'transparent') : 'black',
+          backgroundColor: 'black',
           transition: 'background-color 0.2s ease-in-out',
           boxShadow: 'none', 
           zIndex: 1300,
           height: { xs: 5, sm: 55 },
           // borderBottom: '1px solid gray',
-          borderBottom: scrolled ? '1px solid transparent' : '1px solid gray',
+          // backgroundColor: window.location.pathname === '/' || window.location.pathname === '/home'  ? (scrolled ? 'black' : 'transparent') : 'black',
+          // borderBottom: scrolled ? '1px solid transparent' : '1px solid gray',
 
         }}
       >

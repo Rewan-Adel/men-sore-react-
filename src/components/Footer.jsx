@@ -1,7 +1,8 @@
 import { Box, Typography, Link } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import IconButton from '@mui/material/IconButton';
+import { FaTiktok, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -195,9 +196,14 @@ const Footer = () => {
             <Link href="https://www.instagram.com/_mb_suits_/" target="_blank">
               <InstagramIcon sx={{ fontSize: { xs: "20px", sm: "30px" }, color: "#ffffff" }} />
             </Link>
-            <Link href="https://www.linkedin.com/company/eq3" target="_blank">
-              <LinkedInIcon sx={{ fontSize: { xs: "20px", sm: "30px" }, color: "#ffffff" }} />
-            </Link>
+            <IconButton
+          href="https://www.tiktok.com/"
+          target="_blank"
+          sx={{ color: '#dcdcdc', '&:hover': { color: '#de9e15' }, margin: '0 8px' }}
+          aria-label="TikTok"
+        >
+          <FaTiktok />
+        </IconButton>
           </Box>
         </Box>
       </Box>
