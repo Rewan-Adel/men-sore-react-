@@ -184,7 +184,7 @@ const StoreInfo = () => {
   );
 };
 
-export default function Contactus() {
+function Contactus() {
   return (
     <div className="contactContainer">
       <main className="contactMain">
@@ -201,3 +201,5 @@ export default function Contactus() {
     </div>
   );
 }
+
+export default Contactus;

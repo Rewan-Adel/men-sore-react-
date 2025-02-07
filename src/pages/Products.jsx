@@ -3,7 +3,6 @@ import * as React from "react";
 import Gallery from './Gallery';
 
 function Products() {
-
     return (
     <Box sx={{ marginTop: '80px' }}>
         <Typography variant="h6" align="center" sx={{ color: '#de9e15', fontSize: { xs: '2rem', sm: '3rem' } }}>   

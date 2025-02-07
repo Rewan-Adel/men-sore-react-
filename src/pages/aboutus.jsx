@@ -4,7 +4,7 @@ import Introduction from './Introduction';
 import Values from './Values';
 import CallToAction from './CallToAction';
 
-export default function  Aboutus (){
+function  Aboutus (){
   return (
     <Container bgcolor="black">
       <Introduction />
@@ -14,3 +14,4 @@ export default function  Aboutus (){
   );
 };
 
+export default Aboutus;
