@@ -6,8 +6,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Products from './pages/Products';
-import Contactus from './pages/Contactus';
-import Aboutus  from './pages/Aboutus';
+import Contactus from './pages/Contactus.jsx';
+import Aboutus from './pages/Aboutus.jsx';
 
 const darkTheme = createTheme({
   palette: {
