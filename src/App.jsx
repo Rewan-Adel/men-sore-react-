@@ -6,8 +6,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Products from './pages/Products';
-import Contactus from './pages/Contactus';
-import Aboutus  from './pages/Aboutus';
+// import Contactus from './pages/Contactus';
+// import Aboutus  from './pages/Aboutus';
 
 const darkTheme = createTheme({
   palette: {
@@ -48,8 +48,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/products" element={<Products />} />
-            <Route path="/contactus" element={<Contactus />} />
-            <Route path="/aboutus" element={<Aboutus  />} />
+            {/* <Route path="/contactus" element={<Contactus />} />
+            <Route path="/aboutus" element={<Aboutus  />} /> */}
           </Routes>
         <Footer />
       </ThemeProvider>
